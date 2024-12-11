@@ -14,7 +14,7 @@ const MenuPage = () => {
     useEffect(() => {
         const fetchMenus = async () => {
             try {
-                const response = await axios.get('http://localhost:8080/api/menus');
+                const response = await axios.get('https://dynamic-menu-bulider-backend.onrender.com/api/menus');
                 setMenus(response.data);
                 if (response.data.length > 0) {
                     setSelectedCategory(response.data[0]);

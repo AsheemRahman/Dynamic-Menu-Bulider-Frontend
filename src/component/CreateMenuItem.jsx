@@ -12,7 +12,7 @@ const CreateMenuItem = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post(`http://localhost:8080/api/menus/${id}/items`, {
+            await axios.post(`https://dynamic-menu-bulider-backend.onrender.com/api/menus/${id}/items`, {
                 name,
                 description,
                 price: parseFloat(price),

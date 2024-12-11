@@ -1,13 +1,5 @@
 import React from "react";
-import {
-    Mail,
-    Phone,
-    MapPin,
-    Facebook,
-    Youtube,
-    Twitter,
-    Instagram,
-} from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Youtube, Twitter, Instagram, } from "lucide-react";
 import Logo from "../assets/Logo.png";
 
 const Footer = () => {
@@ -33,7 +25,7 @@ const Footer = () => {
 
                         <div className="border-2 border-white/25 rounded-xl p-10 text-center relative min-h-[200px]">
                             <div className="flex items-center justify-center">
-                                <img src={Logo} alt="Logo" className="absolute w-16 h-16 -top-9"/>
+                                <img src={Logo} alt="Logo" className="absolute w-16 h-16 -top-9" />
                             </div>
                             <div className="mt-12">
                                 <span className="text-2xl font-bold text-blue-500 mr-2">DEEP</span>
@@ -41,16 +33,16 @@ const Footer = () => {
                                 <span className="text-2xl font-bold text-gray-400"> SOFT</span>
                             </div>
                             <div className="flex gap-4 justify-center mt-6">
-                                <a  target="_blank" rel="noreferrer">
+                                <a target="_blank" rel="noreferrer">
                                     <Facebook size={24} className="text-gray-400 hover:text-blue-500 transition" />
                                 </a>
-                                <a  target="_blank" rel="noreferrer">
+                                <a target="_blank" rel="noreferrer">
                                     <Youtube size={24} className="text-gray-400 hover:text-red-500 transition" />
                                 </a>
-                                <a  target="_blank" rel="noreferrer">
+                                <a target="_blank" rel="noreferrer">
                                     <Twitter size={24} className="text-gray-400 hover:text-blue-400 transition" />
                                 </a>
-                                <a  target="_blank" rel="noreferrer">
+                                <a target="_blank" rel="noreferrer">
                                     <Instagram size={24} className="text-gray-400 hover:text-pink-500 transition" />
                                 </a>
                             </div>

@@ -10,7 +10,7 @@ const CreateMenu = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:8080/api/menus', { name, description });
+            await axios.post('https://dynamic-menu-bulider-backend.onrender.com/api/menus', { name, description });
             navigate('/');
         } catch (error) {
             console.error('Error creating menu:', error);
