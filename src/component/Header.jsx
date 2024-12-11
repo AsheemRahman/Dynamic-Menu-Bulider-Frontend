@@ -1,7 +1,7 @@
 import { Menu } from 'lucide-react'
 import { useState } from "react"
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 
 
 const Header = () => {
